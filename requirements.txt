@@ -1,0 +1,12 @@
+ane_transformers==0.1.3
+coremltools==7.1
+elevenlabs==0.2.27
+fuzzywuzzy==0.18.0
+huggingface_hub==0.21.3
+numpy==1.24.2
+pynput==1.7.6
+pyperclip==1.8.2
+thefuzz==0.22.1
+torch==2.2.1
+transformers==4.38.1
+youtube_dl==2021.12.17

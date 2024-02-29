@@ -28,10 +28,6 @@ ydl_opts = {
     }],
 }
 
-def grep(pattern, transcript):
-    expr = re.compile(pattern)
-    return [line for line in transcript if expr.match(line)]
-
 def getVideo():
 
     global cwd, url, transcript
@@ -104,7 +100,6 @@ def getQuery():
         controller.tap("c")
 
     time.sleep(0.1)
-
     query = pyperclip.paste()
 
     if not query: return
